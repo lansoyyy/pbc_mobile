@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "744621655610",
+    "project_id": "plastic-bottle-classifie-4077d",
+    "storage_bucket": "plastic-bottle-classifie-4077d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744621655610:android:8737fea5a88ea364d81703",
+        "android_client_info": {
+          "package_name": "com.example.smart_plastic_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEDGh1mVak0CnlcyqRuGi2M0V2LYl3aR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
