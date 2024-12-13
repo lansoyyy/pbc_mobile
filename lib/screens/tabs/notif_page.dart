@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 import 'package:smart_plastic_mobile/screens/home_screen.dart';
 import 'package:smart_plastic_mobile/utlis/colors.dart';
@@ -131,8 +130,8 @@ class NotifPage extends StatelessWidget {
                                                       height: 300,
                                                       width: 300,
                                                       child: QrImageView(
-                                                        data: data.docs[index]
-                                                            ['itemId'],
+                                                        data:
+                                                            data.docs[index].id,
                                                         version:
                                                             QrVersions.auto,
                                                         size: 200.0,
